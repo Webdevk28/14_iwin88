@@ -1,0 +1,226 @@
+/* 320-480 */
+@media (min-width: 320px) and (max-width: 480px){
+    .kulen-item{
+        width: 100%;
+    }
+    .heard{
+        width: 100%;
+    }
+    .head .head-item{
+        display: flex;
+        justify-content: space-between;
+    }
+    .head .logo{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .head .logo-image{
+        width: 120px;
+    }
+    .head .head-menu,
+    .head .login{
+        display: none!important;
+    }
+    .head .close-button{
+        display: block!important;
+    }
+    /* login-log */
+    .kulen .login-log{
+        display: block;
+    }
+    /* -------- main -------- */
+
+    /* item_banner */
+    .main .iwin{
+        width: 100%;
+        padding: 15px;
+    }
+    .main .iwin-text{
+        font-size: 30px;
+    }
+    .main .iwin-text2{
+        width: 100%;
+    }
+    /* item-2_chọn IWIN688 */
+    .main .cards{
+        width: 100%;
+        padding: 10px;
+    }
+    .main .cong-img{
+        width: 100%;
+    }
+    /* item-6_Cập nhật thêm */
+    .main .boxs {
+        --spacing: 25px;
+        --columns: 1;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: calc(-1 * var(--spacing));
+      }
+
+    .footer .footers {
+        --spacing: 25px;
+        --columns: 1;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: calc(-1 * var(--spacing));
+      }
+}
+/* 481-768 */
+@media (min-width: 481px) and (max-width: 768px){
+    .kulen-item{
+        width: 100%;
+    }
+    .heard{
+        width: 100%;
+    }
+    .head .head-item{
+        display: flex;
+        justify-content: space-between;
+    }
+    .head .logo{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .head .logo-image{
+        width: 120px;
+    }
+    .head .head-menu,
+    .head .login{
+        display: none!important;
+    }
+    .head .close-button{
+        display: block!important;
+    }
+    /* login-log */
+    .kulen .login-log{
+        display: block;
+    }
+    /* -------- main -------- */
+
+    /* item_banner */
+    .main .iwin{
+        width: 100%;
+        padding: 15px;
+    }
+    .main .iwin-text{
+        font-size: 30px;
+        text-align: center;
+    }
+    .main .iwin-text2{
+        width: 100%;
+    }
+    /* item-2_chọn IWIN688 */
+    .main .cards{
+        width: 100%;
+        padding: 10px;
+    }
+    .main .cong-img{
+        width: 100%;
+    }
+    /* item-6_Cập nhật thêm */
+    .main .cards {
+        --spacing: 25px;
+        --columns: 2;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: calc(-1 * var(--spacing));
+      }
+    .main .boxs {
+        --spacing: 25px;
+        --columns: 2;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: calc(-1 * var(--spacing));
+      }
+
+    .footer .footers {
+        --spacing: 25px;
+        --columns: 2;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: calc(-1 * var(--spacing));
+    }
+    
+}
+
+/* 769-1025 */
+@media (min-width: 769px) and (max-width: 1025px){
+    .kulen-item{
+        width: 100%;
+    }
+    .heard{
+        width: 100%;
+    }
+    .head .head-item{
+        display: flex;
+        justify-content: space-between;
+    }
+    .head .logo{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .head .logo-image{
+        width: 120px;
+    }
+    .head .head-menu,
+    .head .login{
+        display: none!important;
+    }
+    .head .close-button{
+        display: block!important;
+    }
+    /* login-log */
+    .kulen .login-log{
+        display: block;
+    }
+    /* -------- main -------- */
+
+    /* item_banner */
+    .main .iwin{
+        width: 100%;
+        padding: 15px;
+    }
+    .main .iwin-text{
+        font-size: 30px;
+        text-align: center;
+    }
+    .main .iwin-text2{
+        width: 100%;
+    }
+    /* item-2_chọn IWIN688 */
+    .main .cards{
+        width: 100%;
+        padding: 10px;
+    }
+    .main .cong-img{
+        width: 100%;
+    }
+    /* item-6_Cập nhật thêm */
+    .main .cards {
+        --spacing: 25px;
+        --columns: 3;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: calc(-1 * var(--spacing));
+      }
+    .main .boxs {
+        --spacing: 25px;
+        --columns: 3;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: calc(-1 * var(--spacing));
+      }
+
+    .footer .footers {
+        --spacing: 25px;
+        --columns: 4;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: calc(-1 * var(--spacing));
+    }
+    
+}
